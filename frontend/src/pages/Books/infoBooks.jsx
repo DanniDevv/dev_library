@@ -36,7 +36,7 @@ export default function InfoBooks() {
     <div>
       <main className='flex justify-center h-screen items-center md:max-h-screen'>
         {books && authors && genrs ? (
-          <div className=''>
+          <div>
             <div className='flex gap-10'>
               {/* title */}
               <article>
